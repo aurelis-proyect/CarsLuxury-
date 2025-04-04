@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Luxury</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png"
+      href="imagen/">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Cars Luxury</h1>
+
+        <div class="select-box">
+            <label for="marca">Seleccione marca de vehículo</label>
+            <select id="marca" onchange="cargarModelos()">
+                <option value="">Marcas</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Lamborghini">Lamborghini</option>
+                <option value="Pagani">Pagani</option>
+                <option value="Janderk">Janderk</option>
+                <option value="Koenigsegg">Koenigsegg</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="McLaren">McLaren</option>
+                <option value="Aston_Martin">Aston Martin</option>
+                <option value="Land_Rover">Land Rover</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="GMA">GMA</option>
+                <option value="Mercedes_Benz">Mercedes Benz</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Peugeot">Peugeot</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Ford">Ford</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Rolls_Royce">Rolls Royce</option>
+                <option value="Bentley">Bentley</option>
+                <option value="SCC">SCC</option>
+                <option value="Hennessey">Hennessey</option>
+                <option value="Rimac">Rimac</option>
+                <option value="Maserati">Maserati</option>
+                <option value="Maybach">Maybach</option>
+                <option value="Lotus">Lotus</option>
+                <option value="Alfa_Romeo">Alfa Romeo</option>
+                <option value="Alpine">Alpine</option>
+            </select>
+        </div>
+
+        <div class="select-box">
+            <label for="modelo">Seleccione el modelo</label>
+            <select id="modelo" onchange="mostrarInformacion()">
+                <option value="">Modelo</option>
+            </select>
+        </div>
+
+        <div class="info-box" id="info">
+            <p>Seleccione un modelo para ver sus especificaciones.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por <span class="highlight">AURELIS | GEMINI | OPENAI</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
